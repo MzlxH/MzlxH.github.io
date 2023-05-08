@@ -4,55 +4,11 @@
   
     
     <entry>
-      <title>如何制作博客</title>
-      <link href="/2023/04/27/%E5%A6%82%E4%BD%95%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2/"/>
-      <url>/2023/04/27/%E5%A6%82%E4%BD%95%E5%88%B6%E4%BD%9C%E5%8D%9A%E5%AE%A2/</url>
+      <title>Markdown 语法</title>
+      <link href="/2023/04/27/markdown%E8%AF%AD%E6%B3%95/"/>
+      <url>/2023/04/27/markdown%E8%AF%AD%E6%B3%95/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>   <strong>在互联网时代，拥有属于自己的个人博客早已不再是一项高大上的事情，而是成为越来越多人的选择。个人博客可以用来记录生活、分享经验，也可以成为展示自己作品的平台，那么该如何制作一个属于自己的个人博客呢？</strong></p><h2 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h2><ul><li><h3 id="选择博客搭建工具"><a href="#选择博客搭建工具" class="headerlink" title="选择博客搭建工具"></a>选择博客搭建工具</h3></li></ul><p>搭建个人博客需要一个可靠的工具，目前比较流行的搭建工具有<strong>Jekyll</strong>、<strong>Hexo</strong>和<strong>WordPress</strong>等。这里我选择使用Hexo进行搭建。</p><ul><li><h3 id="注册Github账号"><a href="#注册Github账号" class="headerlink" title="注册Github账号"></a>注册Github账号</h3></li></ul><p><strong>Github</strong>是一个代码托管平台，也可以用来搭建个人博客。注册Github账号，然后创建一个新的仓库，将仓库命名为”你的用户名.github.io”，这个仓库将用来存储博客的内容。</p><ul><li><h3 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h3></li></ul><p>安装Node.js，然后使用npm来安装Hexo。在电脑终端中输入以下命令：</p><p><code>npm install -g hexo-cli</code></p><ul><li><h3 id="配置Hexo"><a href="#配置Hexo" class="headerlink" title="配置Hexo"></a>配置Hexo</h3></li></ul><p>在本地创建一个Hexo博客项目，在终端中输入以下命令：</p><p><code>hexo init myblog</code><br><code>cd myblog</code><br><code>npm install</code><br>修改配置文件_config.yml中的信息，如网站标题、作者信息、语言等。</p><ul><li><h3 id="制作自己的博客主题"><a href="#制作自己的博客主题" class="headerlink" title="制作自己的博客主题"></a>制作自己的博客主题</h3></li></ul><p>可以选择一些现成的主题，也可以自己动手制作。如果没有相关经验，可以使用已有模板进行修改。</p><ul><li><h3 id="发布到Github-Pages"><a href="#发布到Github-Pages" class="headerlink" title="发布到Github Pages"></a>发布到Github Pages</h3></li></ul><p>在Hexo博客项目中输入以下命令：</p><p><code>hexo clean</code><br><code>hexo g</code><br><code>hexo d</code><br>然后在浏览器中输入”你的用户名.github.io”，就可以看到自己的个人博客了。</p><h2 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h2><p>通过以上步骤，我们成功地制作了属于自己的个人博客，并将其发布到了<strong>Github Pages</strong>上。无论是记录生活还是分享经验，个人博客都是一个很好的选择。如果您也想拥有属于自己的个人博客，不妨跟随以上步骤进行尝试。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 教程 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 教程 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>第一篇文章</title>
-      <link href="/2023/04/26/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
-      <url>/2023/04/26/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="我的个人博客"><a href="#我的个人博客" class="headerlink" title="我的个人博客"></a>我的个人博客</h1><h5 id="文章内容"><a href="#文章内容" class="headerlink" title="文章内容"></a>文章内容</h5><p><img src="https://dogefs.s3.ladydaily.com/~/source/wallhaven/full/m3/wallhaven-m3p2l8.png?w=2560&h=1440&fmt=webp"><br>这是<a href="www.baidu.com">百度</a></p><p>这是一些<strong>文字</strong><br>❤️</p><h3 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h3><ol><li>css</li><li>html</li><li>Javascript</li></ol><h3 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h3><ul><li>java</li><li>c++</li><li>py<blockquote><p>本篇文章引用“”</p></blockquote></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> 语法 </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Markdown 语法简介</title>
-      <link href="/2023/04/26/markdown%E8%AF%AD%E6%B3%95/"/>
-      <url>/2023/04/26/markdown%E8%AF%AD%E6%B3%95/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Markdown-是一种轻量级的标记语言，可以用来快速创建简单的文档。它的语法简单易懂，学习起来也不需要太多的时间。在本文中，我们将介绍-Markdown-的基本语法。"><a href="#Markdown-是一种轻量级的标记语言，可以用来快速创建简单的文档。它的语法简单易懂，学习起来也不需要太多的时间。在本文中，我们将介绍-Markdown-的基本语法。" class="headerlink" title="Markdown 是一种轻量级的标记语言，可以用来快速创建简单的文档。它的语法简单易懂，学习起来也不需要太多的时间。在本文中，我们将介绍 Markdown 的基本语法。"></a>Markdown 是一种轻量级的标记语言，可以用来快速创建简单的文档。它的语法简单易懂，学习起来也不需要太多的时间。在本文中，我们将介绍 Markdown 的基本语法。</h2><ul><li><h1 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h1></li></ul><p>Markdown 中可以使用 1 到 6 个 # 来表示 1 到 6 级标题，例如：</p><p>Copy</p><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><ul><li><h1 id="段落"><a href="#段落" class="headerlink" title="段落"></a>段落</h1></li></ul><p>段落之间需要空一行，可以使用空格或制表符来缩进段落：</p><div class="abc-music-sheet">X:1T:alternate headsM:CL:1/8U:n=!style=normal!K:C treble style=rhythm&quot;Am&quot; BBBB B2 B&gt;B | &quot;Dm&quot; B2 B/B/B &quot;C&quot; B4 |&quot;Am&quot; B2 nGnB B2 nGnA | &quot;Dm&quot; nDB/B/ nDB/B/ &quot;C&quot; nCB/B/ nCB/B/ |B8| B0 B0 B0 B0 |]%%text This translates to:[M:C][K:style=normal][A,EAce][A,EAce][A,EAce][A,EAce] [A,EAce]2 [A,EAce]&gt;[A,EAce] |[DAdf]2 [DAdf]/[DAdf]/[DAdf] [CEGce]4 |[A,EAce]2 GA [A,EAce] GA |D[DAdf]/[DAdf]/ D[DAdf]/[DAdf]/ C [CEGce]/[CEGce]/ C[CEGce]/[CEGce]/ |[CEGce]8 | [CEGce]2 [CEGce]2 [CEGce]2 [CEGce]2 |]GAB2 !style=harmonic![gb]4|GAB2 [K: style=harmonic]gbgb|[K: style=x]C/A,/ C/C/E C/zz2|w:Rock-y did-nt like that</div><p>著作權歸作者所有。商業轉載請聯絡作者獲得授權，非商業轉載請註明出處。<br>这是一个段落。</p><p>这是另一个段落。</p><pre><code>这是一个缩进的段落。</code></pre><ul><li>强调<br>使用 * 或 _ 来表示斜体或粗体：</li></ul><p><em>斜体</em><br><em>斜体</em></p><p><strong>粗体</strong><br><strong>粗体</strong></p><ul><li><h1 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h1></li></ul><p>使用 *、+ 或 - 来表示无序列表，使用数字加 . 来表示有序列表：</p><p>Copy</p><ul><li>无序列表项 1</li><li>无序列表项 2</li><li>无序列表项 3</li></ul><ol><li>有序列表项 1</li><li>有序列表项 2</li><li>有序列表项 3</li></ol><ul><li><h1 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h1></li></ul><p>使用 文本 来表示链接：</p><p>这是一个 <a href="">链接</a>。<br>图片<br>使用来表示图片：</p><p><img src="https://dogefs.s3.ladydaily.com/~/source/wallhaven/full/rr/wallhaven-rrd6gj.jpg?w=2560&h=1440&fmt=webp"><br>引用<br>使用 &gt; 来表示引用：</p><blockquote><p>这是一个引用。</p></blockquote><ul><li><h1 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h1></li></ul><p>使用 <code>代码</code> 来表示行内代码，使用 代码块 来表示代码块：</p><p>这是一段 <code>代码</code>。</p><h1 id="代码-1"><a href="#代码-1" class="headerlink" title="代码"></a><code>代码</code></h1><p>以上就是 Markdown 的基本语法，希望对你有所帮助！</p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="Markdown-语法"><a href="#Markdown-语法" class="headerlink" title="Markdown 语法"></a>Markdown 语法</h1><p><strong>这是一篇使用Markdown语法的文章。Markdown语法是一种用于排版、格式化和编写文档的轻量级标记语言，被广泛应用于各种场合，如博客、文档、论坛等。</strong></p><h2 id="标题和段落"><a href="#标题和段落" class="headerlink" title="标题和段落"></a>标题和段落</h2><p>在Markdown中，可以使用井号（#）来表示标题。例如：</p><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h2 id="段落可以直接用文本表示，也可以在段落前后加上一个或多个换行符。例如："><a href="#段落可以直接用文本表示，也可以在段落前后加上一个或多个换行符。例如：" class="headerlink" title="段落可以直接用文本表示，也可以在段落前后加上一个或多个换行符。例如："></a>段落可以直接用文本表示，也可以在段落前后加上一个或多个换行符。例如：</h2><p>这是一个段落。</p><p>这是另一个段落。<br>可以得到以下效果：</p><p>这是一个段落。</p><p>这是另一个段落。</p><h2 id="强调和斜体"><a href="#强调和斜体" class="headerlink" title="强调和斜体"></a>强调和斜体</h2><p>在Markdown中，可以使用星号（*）或下划线（_）来表示强调和斜体。例如：</p><p>这个词是 <em>斜体</em>，这个词是 <strong>粗体</strong>，这个词是 <em><strong>斜粗体</strong></em>。<br>可以得到以下效果：</p><h2 id="链接和图片"><a href="#链接和图片" class="headerlink" title="链接和图片"></a>链接和图片</h2><p>在Markdown中，可以使用中括号和圆括号来表示链接和图片。例如：</p><p>这是一个<a href="https://www.baidu.com/">链接</a>，这是一张图片：<img src="https://dogefs.s3.ladydaily.com/~/source/wallhaven/small/zx/zxggjg.jpg?w=400&h=200&fmt=webp" alt="图片"></p><h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><p>在Markdown中，可以使用星号（*）或加号（+）或减号（-）来表示无序列表，使用数字和点号（.）来表示有序列表。</p><ul><li>无序列表1</li><li>无序列表2<ul><li>无序列表2.1</li><li>无序列表2.2</li></ul></li></ul><ol><li>有序列表1</li><li>有序列表2<br>可以得到以下效果：</li></ol><ul><li>无序列表1</li><li>无序列表2</li></ul><h2 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h2><p>在Markdown中，可以使用大于号（&gt;）来表示引用。例如：</p><blockquote><p>这是一段引用的文字。</p></blockquote><p>代码块<br>在Markdown中，可以使用反引号（&#96;）来表示单行代码块，使用三个反引号（&#96;&#96;&#96;）来表示多行代码块。例如：</p><p>这是一行代码：<code>print(&quot;Hello, world!&quot;)</code></p><p>这是一段代码：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">for i in range(10):</span><br><span class="line">print(i)</span><br></pre></td></tr></table></figure><p>以上就是Markdown语法的基本内容，希望对大家有所帮助。</p>]]></content>
       
       
       <categories>
@@ -67,6 +23,106 @@
             <tag> Markdown </tag>
             
             <tag> 语法 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>安装文档(二)</title>
+      <link href="/2023/04/27/%E5%AE%89%E8%A3%85%E6%96%87%E6%A1%A32/"/>
+      <url>/2023/04/27/%E5%AE%89%E8%A3%85%E6%96%87%E6%A1%A32/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h1><h2 id="配置hexo"><a href="#配置hexo" class="headerlink" title="配置hexo"></a>配置hexo</h2><p><strong>打开hexo&#x2F;blog路径下的<font color=red>_config.yml</font>文件</strong><br>进行以下配置：<br> <code>  title: MzlxH  </code> 这里为标题 我的是MzlxH<br> <code>  subtitle: &#39;&#39;</code><br> <code>  description: &#39;&#39;</code><br> <code>   keywords:</code><br> <code>  author: </code><br> <code>  language: zh-CN</code> 这里为语言<br><code>   timezone: &#39;&#39;</code></p><h2 id="配置文章"><a href="#配置文章" class="headerlink" title="配置文章"></a>配置文章</h2><pre><code>在**Git Bash Here**命令框输入：</code></pre><p><code>hexo new &quot;文章名&quot;</code><br><strong>打开<font color=blue>hexo\blog\source_posts</font>路径</strong>这里是存放文章的目录。</p><h3 id="Front-matter"><a href="#Front-matter" class="headerlink" title="Front-matter"></a>Front-matter</h3><p>Front-matter 是 markdown 文件最上方以 — 分隔的区域，用于指定个别档案的变数。</p><pre><code>Page Front-matter 用于页面配置Post Front-matter 用于文章页配置</code></pre><h3 id="Page-Front-matter"><a href="#Page-Front-matter" class="headerlink" title="Page Front-matter"></a>Page Front-matter</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title:</span><br><span class="line">date:</span><br><span class="line">updated:</span><br><span class="line">type:</span><br><span class="line">comments:</span><br><span class="line">description:</span><br><span class="line">keywords:</span><br><span class="line">top_img:</span><br><span class="line">mathjax:</span><br><span class="line">katex:</span><br><span class="line">aside:</span><br><span class="line">aplayer:</span><br><span class="line">highlight_shrink:</span><br><span class="line">---</span><br></pre></td></tr></table></figure><table><thead><tr><th align="left">写法</th><th>解释</th></tr></thead><tbody><tr><td align="left">title</td><td>【必需】页面标题</td></tr><tr><td align="left">date</td><td>【必需】页面创建日期</td></tr><tr><td align="left">type</td><td>【必需】标签、分类和友情链接三个页面需要配置</td></tr><tr><td align="left">updated</td><td>【可选】页面更新日期</td></tr><tr><td align="left">description</td><td>【可选】页面描述</td></tr><tr><td align="left">keywords</td><td>【可选】页面关键字</td></tr><tr><td align="left">comments</td><td>【可选】显示页面评论模块 (默认 true)</td></tr><tr><td align="left">top_img</td><td>【可选】页面顶部图片</td></tr><tr><td align="left">mathjax</td><td>【可选】显示mathjax (当设置mathjax的per_page: false时，才需要配置，默认 false)</td></tr><tr><td align="left">katex</td><td>【可选】显示katex (当设置katex的per_page: false时，才需要配置，默认 false)</td></tr><tr><td align="left">aside</td><td>【可选】显示侧边栏 (默认 true)</td></tr><tr><td align="left">aplayer</td><td>【可选】在需要的页面加载aplayer的js和css,请参考文章下面的音乐 配置</td></tr><tr><td align="left">highlight_shrink</td><td>【可选】配置代码框是否展开 (true&#x2F;false) (默认为设置中highlight_shrink的配置)</td></tr><tr><td align="left"><strong><font color=Pink>根据需求进行配置</font></strong></td><td></td></tr></tbody></table><h3 id="Post-Front-matter"><a href="#Post-Front-matter" class="headerlink" title="Post Front-matter"></a>Post Front-matter</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title:</span><br><span class="line">date:</span><br><span class="line">updated:</span><br><span class="line">tags:</span><br><span class="line">categories:</span><br><span class="line">keywords:</span><br><span class="line">description:</span><br><span class="line">top_img:</span><br><span class="line">comments:</span><br><span class="line">cover:</span><br><span class="line">---</span><br></pre></td></tr></table></figure><table><thead><tr><th align="left">写法</th><th>解释</th></tr></thead><tbody><tr><td align="left">title</td><td>【必需】文章标题</td></tr><tr><td align="left">date</td><td>【必需】文章创建日期</td></tr><tr><td align="left">updated</td><td>【可选】文章更新日期</td></tr><tr><td align="left">tags</td><td>【可选】文章标签</td></tr><tr><td align="left">categories</td><td>【可选】文章分类</td></tr><tr><td align="left">description</td><td>【可选】文章描述</td></tr><tr><td align="left">keywords</td><td>【可选】文章关键字</td></tr><tr><td align="left">top_img</td><td>【可选】文章顶部图片</td></tr><tr><td align="left">cover</td><td>【可选】显示文章评论模块(默认 true)</td></tr><tr><td align="left">comments</td><td>【可选】显示页面评论模块 (默认 true)</td></tr><tr><td align="left"><strong><font color=Pink>根据需求进行配置文章</font></strong></td><td></td></tr></tbody></table>]]></content>
+      
+      
+      <categories>
+          
+          <category> 博客制作 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 博客制作 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>安装文档(一)</title>
+      <link href="/2023/04/27/%E5%AE%89%E8%A3%85%E6%96%87%E6%A1%A31/"/>
+      <url>/2023/04/27/%E5%AE%89%E8%A3%85%E6%96%87%E6%A1%A31/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>   <strong>在互联网时代，拥有属于自己的个人博客早已不再是一项高大上的事情，而是成为越来越多人的选择。个人博客可以用来记录生活、分享经验，也可以成为展示自己作品的平台，那么该如何制作一个属于自己的个人博客呢？</strong></p><h1 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h1><h2 id="选择博客搭建工具"><a href="#选择博客搭建工具" class="headerlink" title="选择博客搭建工具"></a>选择博客搭建工具</h2><p>搭建个人博客需要一个可靠的工具，目前比较流行的搭建工具有<strong>Jekyll</strong>、<strong>Hexo</strong>和<strong>WordPress</strong>等。</p><p>这里我选择使用Hexo进行搭建。<br><strong><a href="https://hexo.io/zh-cn/index.html">Hexo</a></strong></p><h2 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h2><p>   Git 是一个开源的分布式版本控制系统，用于敏捷高效地处理任何或小或大的项目。<br>Git 是 Linus Torvalds 为了帮助管理 Linux 内核开发而开发的一个开放源码的版本控制软件。<br><strong><a href="https://git-scm.com/">Git</a></strong></p><h2 id="注册Github账号或者Gitee账户"><a href="#注册Github账号或者Gitee账户" class="headerlink" title="注册Github账号或者Gitee账户"></a>注册Github账号或者Gitee账户</h2><p><strong>Github</strong>是一个代码托管平台，也可以用来搭建个人博客。注册Github账号，然后创建一个新的仓库，将仓库命名为”你的用户名.github.io”，这个仓库将用来存储博客的内容。<br><strong>Gitee</strong>是国内的不卡，github（走梯子才能快）通过多年的累计和扶持，gitee已经比较成熟，gitee全面支持中文，非常棒，不再需要右键谷歌机器翻译了。<br><strong>具体步骤跟github差不多</strong></p><h2 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h2><p> 首先新建一个文件夹命名为<strong>hexo</strong>用于存储自己的博客，在文件里<strong>鼠标右键点击Git Bash Here</strong>打开命令框然后使用npm来安装Hexo。在电脑终端中依次输入以下命令：</p><pre><code>安装命令</code></pre><p><code>npm install hexo-cli -g</code></p><pre><code>配置命令</code></pre><p>   <code>hexo init blog</code><br>   <code>cd blog</code><br>   <code>npm install</code></p><pre><code>运行命令</code></pre><p>   <code>hexo s</code></p><pre><code>全部命令代码</code></pre>   <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br><span class="line">hexo init blog</span><br><span class="line">cd blog</span><br><span class="line">npm install</span><br><span class="line">hexo server </span><br></pre></td></tr></table></figure><p>安装完成后输入：<br>   <code>hexo g</code><br>   <code>hexo s</code><br>打开底部生成的链接即可进入博客页面。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 博客制作 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 博客制作 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>安装文档(四)</title>
+      <link href="/2023/04/27/%E5%AE%89%E8%A3%85%E6%96%87%E6%A1%A34/"/>
+      <url>/2023/04/27/%E5%AE%89%E8%A3%85%E6%96%87%E6%A1%A34/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 博客制作 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 博客制作 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>安装文档(三)</title>
+      <link href="/2023/04/27/%E5%AE%89%E8%A3%85%E6%96%87%E6%A1%A33/"/>
+      <url>/2023/04/27/%E5%AE%89%E8%A3%85%E6%96%87%E6%A1%A33/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h1><h2 id="安装主题"><a href="#安装主题" class="headerlink" title="安装主题"></a>安装主题</h2><p>在安装和配置博客平台之后，你需要选择一个合适的主题。主题是你博客的外观和感觉。不同的博客平台支持不同的主题。</p><pre><code>你可以在博客平台的主题库中选择一个主题，也可以从第三方网站下载和安装主题。</code></pre><p>  一旦你选择了主题，你需要定制它以适合你的博客。你可以改变颜色、字体、排版和布局，添加自定义标志和页面和插件。</p><p><strong>我这里用的是 <a href="https://butterfly.js.org/">Butterfly</a></strong></p><h2 id="Butterfly"><a href="#Butterfly" class="headerlink" title="Butterfly"></a>Butterfly</h2><p><strong><font color=red  > hexo-theme-butterfly </font>是基于 <font style="background: LightGray"> hexo-theme-melody </font>的基础上进行开发的。</strong></p><h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p><strong>npm安装</strong></p><pre><code>此方法只支持 Hexo 5.0.0 以上版本</code></pre><p>在你的 Hexo 根目录里运行</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-theme-butterfly</span><br></pre></td></tr></table></figure><p>升级方法：在 Hexo 根目录下，运行 <code>npm update hexo-theme-butterfly</code></p><h3 id="应用主题"><a href="#应用主题" class="headerlink" title="应用主题"></a>应用主题</h3><p><strong>修改 Hexo 根目录下的<font color=red  > _config.yml </font> ，把主题改为<font color=red  >butterfly </font></strong></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">theme: butterfly</span><br></pre></td></tr></table></figure><h3 id="安装插件"><a href="#安装插件" class="headerlink" title="安装插件"></a>安装插件</h3><p>如果你没有 pug 以及 stylus 的渲染器，请下载安装：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-renderer-pug hexo-renderer-stylus --save</span><br></pre></td></tr></table></figure><h3 id="建议"><a href="#建议" class="headerlink" title="建议"></a>建议</h3><p><strong>在 hexo 的根目录创建一个文件 <font color=red  > _config.butterfly.yml </font>，并把主题目录的 <font color=red  > _config.yml </font> 内容复制到 <font color=red  > _config.butterfly.yml </font> 去。( 注意: 复制的是主题的 <font color=red  > _config.yml </font> ，而不是 hexo 的 <font color=red  > _config.yml </font>)</strong></p><pre><code>注意： 不要把主题目录的 _config.yml删掉</code></pre><p><strong>注意： 以后只需要在 <font color=red  > _config.butterfly.yml </font> 进行配置就行。</strong><br><strong>如果使用了<font color=red  > _config.butterfly.yml </font>， 配置主题的 <font color=red  > _config.yml </font> 将不会有效果</strong></p><p>Hexo会自动合併主题中的 <font color=red  > _config.yml </font> 和 <font color=red  > _config.butterfly.yml </font> 里的配置，如果存在同名配置，会使用 <font color=red  > _config.butterfly.yml </font> 的配置，其优先度较高。<br><img src="https://file.crazywong.com/gh/jerryc127/CDN/img/butterfly-docs-install-suggestion-1.png"></p><h2 id="主题配置详情请前往Butterfly-官网查看"><a href="#主题配置详情请前往Butterfly-官网查看" class="headerlink" title="主题配置详情请前往Butterfly 官网查看"></a>主题配置详情请前往<a href="https://butterfly.js.org/">Butterfly</a> 官网查看</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> 博客制作 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 博客制作 </tag>
             
         </tags>
       
