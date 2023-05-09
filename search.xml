@@ -54,6 +54,33 @@
     
     
     <entry>
+      <title>Markdown 语法</title>
+      <link href="/2023/04/27/markdown%E8%AF%AD%E6%B3%95/"/>
+      <url>/2023/04/27/markdown%E8%AF%AD%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="Markdown-语法"><a href="#Markdown-语法" class="headerlink" title="Markdown 语法"></a>Markdown 语法</h1><p><strong>这是一篇使用Markdown语法的文章。Markdown语法是一种用于排版、格式化和编写文档的轻量级标记语言，被广泛应用于各种场合，如博客、文档、论坛等。</strong></p><h2 id="标题和段落"><a href="#标题和段落" class="headerlink" title="标题和段落"></a>标题和段落</h2><p>在Markdown中，可以使用井号（#）来表示标题。例如：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"># 一级标题</span><br><span class="line">## 二级标题</span><br><span class="line">### 三级标题</span><br></pre></td></tr></table></figure><p>可以得到以下效果：</p><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h2 id="段落可以直接用文本表示，也可以在段落前后加上一个或多个换行符。例如："><a href="#段落可以直接用文本表示，也可以在段落前后加上一个或多个换行符。例如：" class="headerlink" title="段落可以直接用文本表示，也可以在段落前后加上一个或多个换行符。例如："></a>段落可以直接用文本表示，也可以在段落前后加上一个或多个换行符。例如：</h2><p>这是一个段落。</p><p>这是另一个段落。<br>可以得到以下效果：</p><p>这是一个段落。</p><p>这是另一个段落。</p><h2 id="强调和斜体"><a href="#强调和斜体" class="headerlink" title="强调和斜体"></a>强调和斜体</h2><p>在Markdown中，可以使用星号（*）或下划线（_）来表示强调和斜体。例如：</p><p>这个词是 <em>斜体</em>，这个词是 <code>**粗体**</code>，这个词是 <code>***斜粗体***</code>。<br>可以得到以下效果：<br> <em>斜体</em><br>  <strong>粗体</strong><br>   <em><strong>斜粗体</strong></em></p><h2 id="链接和图片"><a href="#链接和图片" class="headerlink" title="链接和图片"></a>链接和图片</h2><p>在Markdown中，可以使用中括号和圆括号来表示链接和图片。例如：</p><p><code>这是一个[链接](https://www.baidu.com/)</code>，<code>这是一张图片：![图片](https://dogefs.s3.ladydaily.com/~/source/wallhaven/small/zx/zxggjg.jpg?w=400&amp;h=200&amp;fmt=webp)</code><br>可以得到以下效果：<br>这是一个<a href="https://www.baidu.com/">链接</a><br>这是一张图片：<img src="https://dogefs.s3.ladydaily.com/~/source/wallhaven/small/zx/zxggjg.jpg?w=400&h=200&fmt=webp" alt="图片"></p><h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><p>在Markdown中，可以使用星号（*）或加号（+）或减号（-）来表示无序列表，使用数字和点号（.）来表示有序列表。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">- 无序列表1</span><br><span class="line">- 无序列表2</span><br><span class="line">    + 无序列表2.1</span><br><span class="line">    + 无序列表2.2</span><br><span class="line">1. 有序列表1</span><br><span class="line">2. 有序列表</span><br></pre></td></tr></table></figure><p>可以得到以下效果：</p><ul><li>无序列表1</li><li>无序列表2<ul><li>无序列表2.1</li><li>无序列表2.2</li></ul></li></ul><ol><li>有序列表1</li><li>有序列表</li></ol><h2 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h2><p>在Markdown中，可以使用大于号（&gt;）来表示引用。例如：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&gt; 这是一段引用的文字。</span><br></pre></td></tr></table></figure><p>可以得到以下效果：</p><blockquote><p>这是一段引用的文字。<br>代码块<br>在Markdown中，可以使用反引号（&#96;）来表示单行代码块，使用三个反引号（&#96;&#96;&#96;）来表示多行代码块。例如：</p></blockquote><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">这是一行代码：`print(&quot;Hello, world!&quot;)`</span><br></pre></td></tr></table></figure><p>可以得到以下效果：<br>这是一行代码：<code>print(&quot;Hello, world!&quot;)</code></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">这是一段代码：</span><br><span class="line">//``` </span><br><span class="line">    for i in range(10):</span><br><span class="line">    print(i)</span><br><span class="line">```//</span><br><span class="line">可以得到以下效果：</span><br></pre></td></tr></table></figure><pre><code>for i in range(10):print(i)</code></pre><pre><code>以上就是Markdown语法的基本内容，希望对大家有所帮助。</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> 语法 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Markdown </tag>
+            
+            <tag> 语法 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>安装文档(三)</title>
       <link href="/2023/04/27/%E5%AE%89%E8%A3%85%E6%96%87%E6%A1%A33/"/>
       <url>/2023/04/27/%E5%AE%89%E8%A3%85%E6%96%87%E6%A1%A33/</url>
@@ -96,33 +123,6 @@
         <tags>
             
             <tag> 博客制作 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Markdown 语法</title>
-      <link href="/2023/04/27/markdown%E8%AF%AD%E6%B3%95/"/>
-      <url>/2023/04/27/markdown%E8%AF%AD%E6%B3%95/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="Markdown-语法"><a href="#Markdown-语法" class="headerlink" title="Markdown 语法"></a>Markdown 语法</h1><p><strong>这是一篇使用Markdown语法的文章。Markdown语法是一种用于排版、格式化和编写文档的轻量级标记语言，被广泛应用于各种场合，如博客、文档、论坛等。</strong></p><h2 id="标题和段落"><a href="#标题和段落" class="headerlink" title="标题和段落"></a>标题和段落</h2><p>在Markdown中，可以使用井号（#）来表示标题。例如：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"># 一级标题</span><br><span class="line">## 二级标题</span><br><span class="line">### 三级标题</span><br></pre></td></tr></table></figure><p>可以得到以下效果：</p><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h2 id="段落可以直接用文本表示，也可以在段落前后加上一个或多个换行符。例如："><a href="#段落可以直接用文本表示，也可以在段落前后加上一个或多个换行符。例如：" class="headerlink" title="段落可以直接用文本表示，也可以在段落前后加上一个或多个换行符。例如："></a>段落可以直接用文本表示，也可以在段落前后加上一个或多个换行符。例如：</h2><p>这是一个段落。</p><p>这是另一个段落。<br>可以得到以下效果：</p><p>这是一个段落。</p><p>这是另一个段落。</p><h2 id="强调和斜体"><a href="#强调和斜体" class="headerlink" title="强调和斜体"></a>强调和斜体</h2><p>在Markdown中，可以使用星号（*）或下划线（_）来表示强调和斜体。例如：</p><p>这个词是 <em>斜体</em>，这个词是 <code>**粗体**</code>，这个词是 <code>***斜粗体***</code>。<br>可以得到以下效果：<br> <em>斜体</em><br>  <strong>粗体</strong><br>   <em><strong>斜粗体</strong></em></p><h2 id="链接和图片"><a href="#链接和图片" class="headerlink" title="链接和图片"></a>链接和图片</h2><p>在Markdown中，可以使用中括号和圆括号来表示链接和图片。例如：</p><p><code>这是一个[链接](https://www.baidu.com/)</code>，<code>这是一张图片：![图片](https://dogefs.s3.ladydaily.com/~/source/wallhaven/small/zx/zxggjg.jpg?w=400&amp;h=200&amp;fmt=webp)</code><br>可以得到以下效果：<br>这是一个<a href="https://www.baidu.com/">链接</a><br>这是一张图片：<img src="https://dogefs.s3.ladydaily.com/~/source/wallhaven/small/zx/zxggjg.jpg?w=400&h=200&fmt=webp" alt="图片"></p><h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><p>在Markdown中，可以使用星号（*）或加号（+）或减号（-）来表示无序列表，使用数字和点号（.）来表示有序列表。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">- 无序列表1</span><br><span class="line">- 无序列表2</span><br><span class="line">    + 无序列表2.1</span><br><span class="line">    + 无序列表2.2</span><br><span class="line">1. 有序列表1</span><br><span class="line">2. 有序列表</span><br></pre></td></tr></table></figure><p>可以得到以下效果：</p><ul><li>无序列表1</li><li>无序列表2<ul><li>无序列表2.1</li><li>无序列表2.2</li></ul></li></ul><ol><li>有序列表1</li><li>有序列表</li></ol><h2 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h2><p>在Markdown中，可以使用大于号（&gt;）来表示引用。例如：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&gt; 这是一段引用的文字。</span><br></pre></td></tr></table></figure><p>可以得到以下效果：</p><blockquote><p>这是一段引用的文字。<br>代码块<br>在Markdown中，可以使用反引号（&#96;）来表示单行代码块，使用三个反引号（&#96;&#96;&#96;）来表示多行代码块。例如：</p></blockquote><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">这是一行代码：`print(&quot;Hello, world!&quot;)`</span><br></pre></td></tr></table></figure><p>可以得到以下效果：<br>这是一行代码：<code>print(&quot;Hello, world!&quot;)</code></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">这是一段代码：</span><br><span class="line">//``` </span><br><span class="line">    for i in range(10):</span><br><span class="line">    print(i)</span><br><span class="line">```//</span><br><span class="line">可以得到以下效果：</span><br></pre></td></tr></table></figure><pre><code>for i in range(10):print(i)</code></pre><pre><code>以上就是Markdown语法的基本内容，希望对大家有所帮助。</code></pre>]]></content>
-      
-      
-      <categories>
-          
-          <category> 语法 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Markdown </tag>
-            
-            <tag> 语法 </tag>
             
         </tags>
       
